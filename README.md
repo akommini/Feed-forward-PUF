@@ -1,0 +1,4 @@
+# Feed-forward-PUF
+Design and Analysis of a Feed-forward PUF (32 nm node) under Voltage Scaling
+
+Physical Unclonable Functions (PUFs) are reliable functions which are completely based on physical characteristics unique to a chip. They implement challenge-response authentication. Beginning with basic PUFs implementation types, Arbiter PUF is one among them following a linear model for the delay paths. Linear model delay paths based PUFs are less-immune to model building attacks. Further addition of non-linear arbiters to the basic structure of Arbiter PUFs results in Feed-forward Arbiters exhibiting non-linear delay model. The induced non-linearity in delay models effect on the performance parameters of PUF i.e reliability, uniqueness is analyzed under different near-threshold and normal operating voltage conditions.
