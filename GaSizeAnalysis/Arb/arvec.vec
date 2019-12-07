@@ -1,0 +1,16 @@
+RADIX 11
+VNAME d1 d2
+IO II
+TUNIT ns 
+VIH 1.1 
+VIL 0.0
+TRISE 0.01 
+TFALL 0.01 
+PERIOD 2 
+
+0 0
+1 1
+0 0
+1 0
+0 1
+

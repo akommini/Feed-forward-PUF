@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='E-2010.12-SP2 32-BIT'
+.TITLE '** generated for: hspiced'
+ poweva           etot             outv1            dlypd1            
+ dlystg64         dypwr            temper           alter#            
+ -1.505e-14       -5.267e-15          0.2692           failed         
+    failed         1.045e-06         25.0000        1                 

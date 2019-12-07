@@ -1,0 +1,22 @@
+radix 1 1 1  
+
+io i i i
+
+vname start1 start2 c
+
+TUNIT ps 
+VIH 1.1 
+VIL 0.0
+TRISE 10 
+TFALL 10 
+period 500
+
+0 0 0
+1 1 0
+1 1 1
+0 0 1
+0 0 0
+0 0 1
+1 1 1
+1 1 0
+0 0 0

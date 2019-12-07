@@ -1,0 +1,51 @@
+***** HSPICE -- E-2010.12-SP2 32-BIT (May 23 2011) linux ******
+ Input File: gen_chan1.sp
+ lic: No 'setenv LM_LICENSE_FILE' in current environment'
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   akommini             HOSTNAME: vlsicad1.ecs.umass.edu
+ lic: HOSTID: 782bcb03b866         PID:      28957
+ lic: Using FLEXlm license file:
+ lic: 27000@vlsicad2.ecs.umass.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 09-sep-2015/2014.09
+ lic: 5(in_use)/50(total) FLOATING license(s) on SERVER vlsicad2.ecs.umass.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  1.00E-02
+       option search   = /usr/synopsys/hspice/hspice/parts/ad
+       option search   = /usr/synopsys/hspice/hspice/parts/behave
+       option search   = /usr/synopsys/hspice/hspice/parts/bjt
+       option search   = /usr/synopsys/hspice/hspice/parts/burr_brn
+       option search   = /usr/synopsys/hspice/hspice/parts/comlinear
+       option search   = /usr/synopsys/hspice/hspice/parts/dio
+       option search   = /usr/synopsys/hspice/hspice/parts/fet
+       option search   = /usr/synopsys/hspice/hspice/parts/lin_tech
+       option search   = /usr/synopsys/hspice/hspice/parts/pci
+       option search   = /usr/synopsys/hspice/hspice/parts/signet
+       option search   = /usr/synopsys/hspice/hspice/parts/ti
+       option search   = /usr/synopsys/hspice/hspice/parts/tline
+       option search   = /usr/synopsys/hspice/hspice/parts/xilinx
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  1.00E-02 memory=    149 kb
+ init: begin check errors,  cpu clock=  1.00E-02
+ init: end check errors,  cpu clock=  1.00E-02 memory=    284 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.00E-02
+       establish matrix -- done,  cpu clock=  1.00E-02 memory=    352 kb
+       re-order matrix -- done,  cpu clock=  1.00E-02 memory=    362 kb
+ init: end setup matrix,  cpu clock=  1.00E-02 memory=    413 kb
+ output: gen_chan1.mt0
+ sweep: tran tran0    begin, stop_t=  5.00E-08 #sweeps=5001 cpu clock=  1.00E-02
+ tran: time= 5.3249E-09 tot_iter=      97 conv_iter=      42 cpu clock= 3.00E-02
+ tran: time= 1.0010E-08 tot_iter=     226 conv_iter=      86 cpu clock= 5.00E-02
+ tran: time= 1.5184E-08 tot_iter=     370 conv_iter=     136 cpu clock= 7.00E-02
+ tran: time= 2.1093E-08 tot_iter=     384 conv_iter=     142 cpu clock= 8.00E-02
+ tran: time= 2.6248E-08 tot_iter=     395 conv_iter=     146 cpu clock= 8.00E-02
+ tran: time= 3.0577E-08 tot_iter=     401 conv_iter=     148 cpu clock= 8.00E-02
+ tran: time= 3.6972E-08 tot_iter=     408 conv_iter=     151 cpu clock= 8.00E-02
+ tran: time= 4.1574E-08 tot_iter=     417 conv_iter=     155 cpu clock= 8.00E-02
+ tran: time= 4.6574E-08 tot_iter=     423 conv_iter=     157 cpu clock= 8.00E-02
+ tran: time= 5.0000E-08 tot_iter=     427 conv_iter=     159 cpu clock= 8.00E-02
+ sweep: tran tran0    end,  cpu clock=  8.00E-02 memory=    415 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

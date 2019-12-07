@@ -1,0 +1,64 @@
+* "simulator" "HSPICE" 
+* "version" "E-2010.12-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "12:06:17 11/24/2014 "
+* "netlist" "NAND180_180.sp "
+* "runtitle" ".global vss! vdd!"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ clk =   0.            
++ invo = 999.9999m       
++ n1 = 999.9997m       
++ n2 = 999.9994m       
++ n3 = 450.7962n       
++ n4 = 999.9997m       
++ n5 = 999.9994m       
++ n6 = 450.7962n       
++ net16 =  41.4999m       
++ net17 = 758.4615m       
++ net18 = 331.3667n       
++ net19 =  41.4999m       
++ net20 = 758.4615m       
++ net21 = 331.3667n       
++ out =   0.            
++ outb =   0.            
++ s =   0.            
++ vdd! =   1.0000        
++ vss! =   0.            
++ ya =   0.            
++ yb =   3.5621a       
++ x1.net5 =   1.1968p       
++ x1.net6 =   1.1967p       
++ x2.ci =   0.            
++ x2.cni =   0.            
++ x2.vdd! =   0.            
++ x2.vss! =   0.            
++ x2.z1 =   0.            
++ x2.z10 =   0.            
++ x2.z11 =   0.            
++ x2.z12 =   0.            
++ x2.z2 =   0.            
++ x2.z3 =   0.            
++ x2.z4 =   0.            
++ x2.z5 =   0.            
++ x2.z6 =   0.            
++ x2.z7 =   0.            
++ x2.z8 =   0.            
++ x2.z9 =   0.            
++ x1.xi1.net_0 =   1.1834p       
++ x1.xi1.vdd! =   1.2307p       
++ x1.xi1.vss! =   1.2098p       
++ x1.xi0.net_0 =   1.1834p       
++ x1.xi0.vdd! =   1.2307p       
++ x1.xi0.vss! =   1.2098p       
++ x1.xi5.vdd! =   4.9925a       
++ x1.xi5.vss! =   4.2430a       
++ x1.xi4.vdd! =   1.1343a       
++ x1.xi4.vss! =   2.8865a       
+***   END: Saved Operating Point ***                     

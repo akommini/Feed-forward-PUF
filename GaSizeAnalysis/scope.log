@@ -1,0 +1,2607 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/akommini/658proj/GaSize_anl/gen_chan1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 231x339+683+384
+wm geometry .sigmgr._PF:1 231x339+679+378
+wm geometry .sigmgr._PF:1 231x339+678+377
+wm geometry .sigmgr._PF:1 231x339+674+369
+wm geometry .sigmgr._PF:1 231x339+673+366
+wm geometry .sigmgr._PF:1 231x339+672+362
+wm geometry .sigmgr._PF:1 231x339+669+354
+wm geometry .sigmgr._PF:1 231x339+658+340
+wm geometry .sigmgr._PF:1 231x339+657+332
+wm geometry .sigmgr._PF:1 231x339+651+323
+wm geometry .sigmgr._PF:1 231x339+647+317
+wm geometry .sigmgr._PF:1 231x339+644+312
+wm geometry .sigmgr._PF:1 231x339+640+306
+wm geometry .sigmgr._PF:1 231x339+629+295
+wm geometry .sigmgr._PF:1 231x339+625+280
+wm geometry .sigmgr._PF:1 231x339+622+279
+wm geometry .sigmgr._PF:1 231x339+618+273
+wm geometry .sigmgr._PF:1 231x339+616+272
+pf:read PF:1 v(n3) v(n6) v(s) v(a) v(b)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5} -region {new new new new new} -yview {real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 v(va)
+# WF:1:6
+Graph addsignal WF:1:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig {Signal0 Signal1} -region {1 1} -rgnindex {0 1}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 231x339+622+273
+wm geometry .sigmgr._PF:1 231x339+626+273
+wm geometry .sigmgr._PF:1 231x339+632+272
+wm geometry .sigmgr._PF:1 231x339+643+269
+wm geometry .sigmgr._PF:1 231x339+655+263
+wm geometry .sigmgr._PF:1 231x339+673+253
+wm geometry .sigmgr._PF:1 231x339+692+252
+wm geometry .sigmgr._PF:1 231x339+705+245
+wm geometry .sigmgr._PF:1 231x339+721+234
+wm geometry .sigmgr._PF:1 231x339+731+229
+wm geometry .sigmgr._PF:1 231x339+741+221
+wm geometry .sigmgr._PF:1 231x339+746+219
+wm geometry .sigmgr._PF:1 231x339+755+213
+wm geometry .sigmgr._PF:1 231x339+763+208
+wm geometry .sigmgr._PF:1 231x339+769+205
+wm geometry .sigmgr._PF:1 231x339+781+204
+wm geometry .sigmgr._PF:1 231x339+785+201
+wm geometry .sigmgr._PF:1 231x339+789+198
+wm geometry .sigmgr._PF:1 231x339+792+198
+wm geometry .sigmgr._PF:1 231x339+795+195
+wm geometry .sigmgr._PF:1 231x339+796+194
+wm geometry .sigmgr._PF:1 231x339+798+189
+wm geometry .sigmgr._PF:1 231x339+799+187
+wm geometry .sigmgr._PF:1 231x339+800+187
+wm geometry .sigmgr._PF:1 231x339+800+185
+wm geometry .sigmgr._PF:1 231x339+799+184
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -rang {-0.5 1.2 exact} -gridvis n -label (V) -scale lin -unitscale auto
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -rang {-0.5 1.2 exact} -gridvis n -label (V) -scale lin -unitscale auto
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -rang {-0.5 1.2 exact} -gridvis n -label (V) -scale lin -unitscale auto
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -rang {-0.1 0.5 exact} -gridvis n -label (V) -scale lin -unitscale auto
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal7 add
+# Signal7
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+pf:read PF:2 v(n3)
+# WF:2:3
+Graph addsignal WF:2:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal12
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:2 v(n6)
+# WF:2:4
+Graph addsignal WF:2:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal13
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 231x339+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 231x339+799+184
+Mdi:ArrangeIcons
+pf:read PF:2 v(n1)
+# WF:2:7
+Graph addsignal WF:2:7 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal14
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:2 v(n2)
+# WF:2:8
+Graph addsignal WF:2:8 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal15
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:2 v(n4)
+# WF:2:9
+Graph addsignal WF:2:9 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal16
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:2 v(invo)
+# WF:2:10
+Graph addsignal WF:2:10 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal17
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 231x339+0+0
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal17 add
+# Signal17
+Graph sigconfig {Signal17 Signal8 Signal9 Signal10 Signal11 Signal12 Signal13 Signal14 Signal15 Signal16} -regswap {0 1 2 3 4 5 6 7 8 9}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal22 add
+# Signal22
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal33 add
+# Signal33
+GrMeas:Threshold Graph0 Signal33 {} either xyrangeVisible
+# M:0
+Graph:DSel
+GrMeas:Select Graph0 M:0 1
+GrMeas:HideResult Graph0 M:0 1
+GrMeas:ShowResult Graph0 M:0 1
+GrMeas:Select Graph0 M:0 1 1
+GrMeas:HideResult Graph0 M:0 1
+GrMeas:ShowResult Graph0 M:0 1
+GrMeas:Select Graph0 M:0 1 1
+GrMeas:HideResult Graph0 M:0 1
+GrMeas:ShowResult Graph0 M:0 1
+GrMeas:Select Graph0 M:0 1 1
+Graph:DSel
+GrMeas:Select Graph0 M:0 0
+GrMeas:MoveYLevel Graph0 M:0 0 0.18158864343977
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:1 0
+GrMeas:MoveYLevel Graph0 M:1 0 0.31620261849936
+# M:2
+Graph:DSel
+GrMeas:Select Graph0 M:2 0
+GrMeas:MoveYLevel Graph0 M:2 0 0.33115972683931
+# M:3
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 0
+GrMeas:MoveYLevel Graph0 M:3 0 0.33115972683931
+# M:4
+Graph:DSel
+GrMeas:Select Graph0 M:4 0
+GrMeas:MoveYLevel Graph0 M:4 0 0.31620261849936
+# M:5
+Mdi:ArrangeIcons
+GrMeas:MoveYLevel Graph0 M:5 0 0.31620261849936
+# M:6
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:6 1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal33 add
+# Signal33
+GrMeas:AtX Graph0 Signal33 {} xyrangeVisible
+# M:7
+Graph:DSel
+GrMeas:Select Graph0 M:7 0 1
+GrMeas:MovePoint Graph0 M:7 0 1.9524248293423n 0.38124422124244
+Graph:DSel
+Graph itemselect Signal34 add
+# Signal34
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal34 {} xyrangeVisible
+# M:8
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:8 0 1
+GrMeas:MovePoint Graph0 M:8 0 2.3671807166436n 0.40591833771047
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 6.5489340941197n 0.43068922257964
+GrMeas:MoveText Graph0 M:10 0 -75 26
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 4.5857599442757n 0.4284398137082
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:9 0 1
+GrMeas:MovePoint Graph0 M:9 0 3.3593425009908n 0.40613834888662
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:9 0 2.3227427697406n 0.40058785946359
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:16 0 1
+GrMeas:MovePoint Graph0 M:16 0 6.8132723551918n 0.40031900763216
+Graph:DSel
+GrMeas:Select Graph0 M:15 0 1
+GrMeas:MovePoint Graph0 M:15 0 3.0640000215402n 0.19214598471158
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(5,0) AxisX(0)} -range {{0.017060530014475 0.22646004418891} {4.23645n 5.62703n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:15 0 1
+GrMeas:MovePoint Graph0 M:15 0 5.6776079462939n 0.37438461967588
+Graph:DSel
+GrMeas:Select Graph0 M:15 0 2
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal72 add
+# Signal72
+GrMeas:AtX Graph0 Signal72 {} xyrangeVisible
+# M:17
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:17 0 1
+GrMeas:MovePoint Graph0 M:17 0 12.045127996747n 0.127211021203
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:18 0 1
+GrMeas:MovePoint Graph0 M:18 0 8.8444603146741n 0.99934656363192
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:18 0 1
+GrMeas:MovePoint Graph0 M:18 0 13.547880587194n 0.99958620236112
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:21 0 1
+GrMeas:MovePoint Graph0 M:21 0 7.6307760883581n 0.12244426453814
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:24 0 1
+GrMeas:MovePoint Graph0 M:24 0 9.865231207297n 0.12328881988805
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:27 0 1
+GrMeas:MovePoint Graph0 M:27 0 16.544181666227n 0.13189664304097
+Graph:DSel
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:27 0 1
+GrMeas:MovePoint Graph0 M:27 0 31.300292854455n 0.14128123801754
+Graph:DSel
+GrMeas:Select Graph0 M:28 0 1
+GrMeas:MovePoint Graph0 M:28 0 7.7734941738356n 0.40662356025641
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:30 0 1
+GrMeas:MovePoint Graph0 M:30 0 7.2033685965641n 0.53150409481792
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:31 0 1
+GrMeas:MovePoint Graph0 M:31 0 5.2273601490502n 0.37330875589545
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:32 0 1
+GrMeas:MovePoint Graph0 M:32 0 19.039099486437n 0.46584536529031
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:33 0 1
+GrMeas:MovePoint Graph0 M:33 0 29.108310560218n 0.21837364482693
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:34 0 1
+GrMeas:MovePoint Graph0 M:34 0 6.2521204107117n 0.4008133480964
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:35 0 1
+GrMeas:MovePoint Graph0 M:35 0 6.6794094793364n 0.4657326209739
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:33 0 1
+GrMeas:MoveText Graph0 M:33 0 56 28
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:33 0 1
+GrMeas:MovePoint Graph0 M:33 0 6.6574255482558n 0.22414277606193
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:33 0 1
+GrMeas:MovePoint Graph0 M:33 0 7.862472884052n 0.22244499272238
+Graph:DSel
+GrMeas:Select Graph0 M:34 0 1
+GrMeas:MovePoint Graph0 M:34 0 5.7132366294956n 0.39533406561004
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:35 0 1
+GrMeas:MovePoint Graph0 M:35 0 6.0100002454851n 0.20261523022199
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:34 0 1
+GrMeas:MovePoint Graph0 M:34 0 6.2513743481579n 0.40081289164168
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:35 0 1
+GrMeas:MovePoint Graph0 M:35 0 6.6609865805919n 0.46485759727128
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:36 0 1
+GrMeas:MovePoint Graph0 M:36 0 8.7119678302325n 0.22482791460009
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:40 0 1
+GrMeas:MovePoint Graph0 M:40 0 5.0993643467577n 0.35227623520183
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:41 0 1
+GrMeas:MovePoint Graph0 M:41 0 5.0977828033568n 0.16758004801273
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:43 0 1
+GrMeas:MovePoint Graph0 M:43 0 6.8328669699938n 0.40028340416382
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:44 0 1
+GrMeas:MovePoint Graph0 M:44 0 6.5713232402369n 0.39924999067256
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:44 0 6.6448612541769n 0.40033452709272
+Graph:DSel
+GrMeas:Select Graph0 M:43 0 1
+GrMeas:MovePoint Graph0 M:43 0 5.6110035344025n 0.39101646039192
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:43 0 4.9021171479433n 0.32240127362804
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:45 0 1
+GrMeas:MovePoint Graph0 M:45 0 44.093798100425n 0.13201389484776
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{0.059930545919127 0.0038413892880254} {44.1408n 43.8724n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:49 0 1
+GrMeas:MovePoint Graph0 M:49 0 6.1847016032684n 0.4001519452038
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:50 0 1
+GrMeas:MovePoint Graph0 M:50 0 6.4452834249177n 0.39945539529759
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:50 0 6.4312142706939n 0.39933169606785
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:52 0 1
+GrMeas:MovePoint Graph0 M:52 0 8.3583563912752n 0.27102227363251
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:52 0 1
+GrMeas:MovePoint Graph0 M:52 0 8.6975654636632n 0.28042067636443
+Graph:DSel
+GrMeas:Select Graph0 M:53 0 1
+GrMeas:MovePoint Graph0 M:53 0 8.7363088922067n 0.40220370918049
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:51 0 1
+GrMeas:MovePoint Graph0 M:51 0 8.3965323273192n 0.12506146180206
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:51 0 9.3086217494949n 0.12433980688612
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{0.11041078688712 0.076757292908457} {11.7483n 11.9801n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:51 0 1
+GrMeas:MovePoint Graph0 M:51 0 12.620780073098n 0.12175752840845
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:54 0 1
+GrMeas:MovePoint Graph0 M:54 0 12.457239052803n 0.12052047905421
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:63 0 1
+GrMeas:MovePoint Graph0 M:63 0 9.270835307965n 0.10794971600238
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:63 0 9.7298091686172n 0.10987401499787
+GrMeas:MovePoint Graph0 M:63 0 11.77447887142n 0.11724804103644
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal238 add
+# Signal238
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal268 add
+# Signal268
+GrMeas:Threshold Graph0 Signal268 {} either xyrangeVisible
+# M:78
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal268 {} xyrangeVisible
+# M:79
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:78 0
+GrMeas:MoveYLevel Graph0 M:78 0 0.083369172752413
+# M:80
+Mdi:ArrangeIcons
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:80 1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:79 0 1
+GrMeas:MovePoint Graph0 M:79 0 5.850559456986n 0.16452225782811
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:81 0 1
+GrMeas:MovePoint Graph0 M:81 0 44.097500427316n 0.22542415858108
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig AxisX(0) -range {22.5345n 17.2111n}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0) AxisY(7,0) AxisY(8,0) AxisY(9,0)} -range {all all all all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:81 0 1
+GrMeas:MovePoint Graph0 M:81 0 5.1849246843578n 0.11345319058901
+Graph:DSel
+GrMeas:Select Graph0 M:83 0 1
+GrMeas:MovePoint Graph0 M:83 0 13.354803155818n 0.43479777153496
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:82 0 1
+GrMeas:MovePoint Graph0 M:82 0 11.396171208243n 0.12830428731972
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:86 0 1
+GrMeas:MovePoint Graph0 M:86 0 49.816814599779n 0.31643866264762
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) gen_chan1.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:89 0 1
+GrMeas:MovePoint Graph0 M:89 0 13.140371262718n -30.810693754485u
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrXY:NewGraph
+# Graph1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/akommini/658proj/gene_vsub.tr0 1 openonly
+# PF:32
+wm geometry .sigmgr._PF:32 231x339+713+414
+pf:read PF:32 v(out)
+# WF:32:1
+Graph addsignal WF:32:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:32 v(sa64)
+# WF:32:2
+Graph addsignal WF:32:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:32 v(sb64)
+# WF:32:3
+Graph addsignal WF:32:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 396x222+911+131
+wm geometry .sigmgr 396x222+906+132
+wm geometry .sigmgr 396x222+893+132
+wm geometry .sigmgr 396x222+886+132
+wm geometry .sigmgr 396x222+865+143
+wm geometry .sigmgr 396x222+852+146
+wm geometry .sigmgr 396x222+829+147
+wm geometry .sigmgr 396x222+803+153
+wm geometry .sigmgr 396x222+782+153
+wm geometry .sigmgr 396x222+759+154
+wm geometry .sigmgr 396x222+738+158
+wm geometry .sigmgr 396x222+725+158
+wm geometry .sigmgr 396x222+713+158
+wm geometry .sigmgr 396x222+697+158
+wm geometry .sigmgr 396x222+686+158
+wm geometry .sigmgr 396x222+678+158
+wm geometry .sigmgr 396x222+672+158
+wm geometry .sigmgr 396x222+670+158
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrXY:NewGraph
+# Graph2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:33 v(out)
+# WF:33:1
+Graph addsignal WF:33:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(2) gene_vsub.tr0}}
+Graph2 delsignal Signal0
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrXY:NewGraph
+# Graph3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/akommini/658proj/gene_vsub.tr0 1 openonly
+# PF:34
+wm geometry .sigmgr._PF:34 231x339+743+384
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:34 231x339+738+381
+wm geometry .sigmgr._PF:34 231x339+737+377
+wm geometry .sigmgr._PF:34 231x339+733+370
+wm geometry .sigmgr._PF:34 231x339+730+367
+wm geometry .sigmgr._PF:34 231x339+728+362
+wm geometry .sigmgr._PF:34 231x339+722+354
+wm geometry .sigmgr._PF:34 231x339+715+345
+wm geometry .sigmgr._PF:34 231x339+713+339
+wm geometry .sigmgr._PF:34 231x339+708+329
+wm geometry .sigmgr._PF:34 231x339+705+302
+wm geometry .sigmgr._PF:34 231x339+699+294
+wm geometry .sigmgr._PF:34 231x339+695+289
+wm geometry .sigmgr._PF:34 231x339+693+279
+wm geometry .sigmgr._PF:34 231x339+690+271
+wm geometry .sigmgr._PF:34 231x339+689+265
+wm geometry .sigmgr._PF:34 231x339+686+250
+wm geometry .sigmgr._PF:34 231x339+683+238
+wm geometry .sigmgr._PF:34 231x339+683+229
+wm geometry .sigmgr._PF:34 231x339+683+223
+wm geometry .sigmgr._PF:34 231x339+683+220
+wm geometry .sigmgr._PF:34 231x339+683+217
+wm geometry .sigmgr._PF:34 231x339+684+215
+wm geometry .sigmgr._PF:34 231x339+684+211
+wm geometry .sigmgr._PF:34 231x339+684+210
+wm geometry .sigmgr._PF:34 231x339+685+208
+wm geometry .sigmgr._PF:34 231x339+686+206
+wm geometry .sigmgr._PF:34 231x339+686+205
+wm geometry .sigmgr._PF:34 231x339+687+204
+wm geometry .sigmgr._PF:34 231x339+687+201
+wm geometry .sigmgr._PF:34 231x339+687+200
+wm geometry .sigmgr._PF:34 231x339+687+199
+pf:read PF:34 v(out)
+# WF:34:1
+Graph addsignal WF:34:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:35 v(sa64)
+# WF:35:2
+Graph addsignal WF:35:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:35 v(sb64)
+# WF:35:3
+Graph addsignal WF:35:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph3
+Mdi:ArrangeIcons
+Graph:DSel
+pf:read PF:36 v(net03559)
+# WF:36:4
+Graph addsignal WF:36:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal7
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:36 v(start1)
+# WF:36:5
+Graph addsignal WF:36:5 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal8
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:34 231x339+684+204
+wm geometry .sigmgr._PF:34 231x339+683+206
+wm geometry .sigmgr._PF:34 231x339+681+209
+wm geometry .sigmgr._PF:34 231x339+678+214
+wm geometry .sigmgr._PF:34 231x339+671+236
+wm geometry .sigmgr._PF:34 231x339+662+257
+wm geometry .sigmgr._PF:34 231x339+655+271
+wm geometry .sigmgr._PF:34 231x339+652+280
+wm geometry .sigmgr._PF:34 231x339+646+289
+wm geometry .sigmgr._PF:34 231x339+646+300
+wm geometry .sigmgr._PF:34 231x339+646+306
+wm geometry .sigmgr._PF:34 231x339+645+309
+wm geometry .sigmgr._PF:34 231x339+645+316
+wm geometry .sigmgr._PF:34 231x339+643+319
+wm geometry .sigmgr._PF:34 231x339+643+322
+wm geometry .sigmgr._PF:34 231x339+643+323
+wm geometry .sigmgr._PF:34 231x339+643+327
+wm geometry .sigmgr._PF:34 231x339+642+330
+wm geometry .sigmgr._PF:34 231x339+640+332
+wm geometry .sigmgr._PF:34 231x339+637+337
+wm geometry .sigmgr._PF:34 231x339+629+351
+wm geometry .sigmgr._PF:34 231x339+624+357
+wm geometry .sigmgr._PF:34 231x339+621+369
+wm geometry .sigmgr._PF:34 231x339+621+380
+wm geometry .sigmgr._PF:34 231x339+616+394
+wm geometry .sigmgr._PF:34 231x339+615+405
+wm geometry .sigmgr._PF:34 231x339+615+411
+wm geometry .sigmgr._PF:34 231x339+613+414
+wm geometry .sigmgr._PF:34 231x339+613+418
+wm geometry .sigmgr._PF:34 231x339+611+419
+wm geometry .sigmgr._PF:34 231x339+609+420
+wm geometry .sigmgr._PF:34 231x339+608+423
+wm geometry .sigmgr._PF:34 231x339+607+423
+wm geometry .sigmgr._PF:34 231x339+606+423
+wm geometry .sigmgr._PF:34 231x339+600+422
+wm geometry .sigmgr._PF:34 231x339+596+426
+wm geometry .sigmgr._PF:34 231x339+591+428
+wm geometry .sigmgr._PF:34 231x339+586+435
+wm geometry .sigmgr._PF:34 231x339+570+448
+wm geometry .sigmgr._PF:34 231x339+559+457
+wm geometry .sigmgr._PF:34 231x339+542+464
+wm geometry .sigmgr._PF:34 231x339+523+480
+wm geometry .sigmgr._PF:34 231x339+511+491
+wm geometry .sigmgr._PF:34 231x339+497+503
+wm geometry .sigmgr._PF:34 231x339+488+514
+wm geometry .sigmgr._PF:34 231x339+481+521
+wm geometry .sigmgr._PF:34 231x339+477+527
+wm geometry .sigmgr._PF:34 231x339+474+529
+wm geometry .sigmgr._PF:34 231x339+472+530
+wm geometry .sigmgr._PF:34 231x339+467+532
+wm geometry .sigmgr._PF:34 231x339+464+536
+wm geometry .sigmgr._PF:34 231x339+460+542
+wm geometry .sigmgr._PF:34 231x339+462+561
+wm geometry .sigmgr._PF:34 231x339+465+567
+wm geometry .sigmgr._PF:34 231x339+464+569
+wm geometry .sigmgr._PF:34 231x339+461+571
+wm geometry .sigmgr._PF:34 231x339+459+573
+wm geometry .sigmgr._PF:34 231x339+455+578
+wm geometry .sigmgr._PF:34 231x339+452+581
+wm geometry .sigmgr._PF:34 231x339+436+603
+wm geometry .sigmgr._PF:34 231x339+426+612
+wm geometry .sigmgr._PF:34 231x339+411+628
+wm geometry .sigmgr._PF:34 231x339+400+640
+wm geometry .sigmgr._PF:34 231x339+390+646
+wm geometry .sigmgr._PF:34 231x339+387+653
+wm geometry .sigmgr._PF:34 231x339+386+656
+wm geometry .sigmgr._PF:34 231x339+383+658
+wm geometry .sigmgr._PF:34 231x339+381+661
+wm geometry .sigmgr._PF:34 231x339+378+664
+wm geometry .sigmgr._PF:34 231x339+378+665
+wm geometry .sigmgr._PF:34 231x339+378+669
+wm geometry .sigmgr._PF:34 231x339+378+668
+wm geometry .sigmgr._PF:34 231x339+378+667
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 406x232+677+185
+wm geometry .sigmgr 406x232+682+186
+wm geometry .sigmgr 406x232+688+190
+wm geometry .sigmgr 406x232+696+190
+wm geometry .sigmgr 406x232+706+193
+wm geometry .sigmgr 406x232+719+199
+wm geometry .sigmgr 406x232+731+202
+wm geometry .sigmgr 406x232+742+205
+wm geometry .sigmgr 406x232+756+211
+wm geometry .sigmgr 406x232+770+220
+wm geometry .sigmgr 406x232+780+228
+wm geometry .sigmgr 406x232+795+229
+wm geometry .sigmgr 406x232+803+230
+wm geometry .sigmgr 406x232+811+235
+wm geometry .sigmgr 406x232+816+245
+wm geometry .sigmgr 406x232+820+246
+wm geometry .sigmgr 406x232+823+249
+wm geometry .sigmgr 406x232+825+251
+wm geometry .sigmgr 406x232+828+252
+wm geometry .sigmgr 406x232+831+252
+wm geometry .sigmgr 406x232+833+251
+wm geometry .sigmgr 406x232+833+249
+wm geometry .sigmgr 406x232+830+246
+wm geometry .sigmgr 406x232+830+248
+wm geometry .sigmgr 406x232+831+252
+wm geometry .sigmgr 406x232+834+255
+wm geometry .sigmgr 406x232+842+261
+wm geometry .sigmgr 406x232+855+277
+wm geometry .sigmgr 406x232+867+288
+wm geometry .sigmgr 406x232+879+294
+wm geometry .sigmgr 406x232+891+301
+wm geometry .sigmgr 406x232+905+309
+wm geometry .sigmgr 406x232+915+316
+wm geometry .sigmgr 406x232+924+325
+wm geometry .sigmgr 406x232+932+331
+wm geometry .sigmgr 406x232+936+333
+wm geometry .sigmgr 406x232+938+335
+wm geometry .sigmgr 406x232+939+335
+wm geometry .sigmgr 406x232+940+335
+wm geometry .sigmgr 406x232+932+332
+wm geometry .sigmgr 406x232+916+326
+wm geometry .sigmgr 406x232+897+319
+wm geometry .sigmgr 406x232+883+313
+wm geometry .sigmgr 406x232+863+312
+wm geometry .sigmgr 406x232+853+312
+wm geometry .sigmgr 406x232+842+310
+wm geometry .sigmgr 406x232+839+308
+wm geometry .sigmgr 406x232+835+309
+wm geometry .sigmgr 406x232+826+319
+wm geometry .sigmgr 406x232+820+309
+wm geometry .sigmgr 406x232+808+300
+wm geometry .sigmgr 406x232+787+297
+wm geometry .sigmgr 406x232+768+294
+wm geometry .sigmgr 406x232+751+286
+wm geometry .sigmgr 406x232+740+285
+wm geometry .sigmgr 406x232+734+283
+wm geometry .sigmgr 406x232+731+283
+wm geometry .sigmgr 406x232+728+283
+wm geometry .sigmgr 406x232+723+286
+wm geometry .sigmgr 406x232+717+299
+wm geometry .sigmgr 406x232+712+298
+wm geometry .sigmgr 406x232+706+296
+wm geometry .sigmgr 406x232+698+290
+wm geometry .sigmgr 406x232+690+287
+wm geometry .sigmgr 406x232+679+280
+wm geometry .sigmgr 406x232+669+276
+wm geometry .sigmgr 406x232+666+276
+wm geometry .sigmgr 406x232+662+276
+wm geometry .sigmgr 406x232+660+275
+wm geometry .sigmgr 406x232+659+275
+wm geometry .sigmgr 406x232+661+273
+wm geometry .sigmgr 406x232+667+269
+wm geometry .sigmgr 406x232+677+262
+wm geometry .sigmgr 406x232+684+259
+wm geometry .sigmgr 406x232+690+259
+wm geometry .sigmgr 406x232+696+257
+wm geometry .sigmgr 406x232+698+257
+wm geometry .sigmgr 406x232+699+257
+wm geometry .sigmgr 406x232+700+257
+wm geometry .sigmgr 406x232+701+257
+wm geometry .sigmgr 406x232+702+257
+wm geometry .sigmgr 406x232+704+258
+wm geometry .sigmgr 406x232+704+255
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:34 231x339+376+657
+wm geometry .sigmgr._PF:34 231x339+375+646
+wm geometry .sigmgr._PF:34 231x339+373+634
+wm geometry .sigmgr._PF:34 231x339+373+614
+wm geometry .sigmgr._PF:34 231x339+372+603
+wm geometry .sigmgr._PF:34 231x339+372+597
+wm geometry .sigmgr._PF:34 231x339+373+587
+wm geometry .sigmgr._PF:34 231x339+377+580
+wm geometry .sigmgr._PF:34 231x339+379+577
+wm geometry .sigmgr._PF:34 231x339+382+573
+wm geometry .sigmgr._PF:34 231x339+386+571
+wm geometry .sigmgr._PF:34 231x339+390+566
+wm geometry .sigmgr._PF:34 231x339+390+563
+wm geometry .sigmgr._PF:34 231x339+390+556
+wm geometry .sigmgr._PF:34 231x339+390+539
+wm geometry .sigmgr._PF:34 231x339+390+526
+wm geometry .sigmgr._PF:34 231x339+390+507
+wm geometry .sigmgr._PF:34 231x339+390+498
+wm geometry .sigmgr._PF:34 231x339+394+490
+wm geometry .sigmgr._PF:34 231x339+397+482
+wm geometry .sigmgr._PF:34 231x339+400+480
+wm geometry .sigmgr._PF:34 231x339+404+480
+wm geometry .sigmgr._PF:34 231x339+409+470
+wm geometry .sigmgr._PF:34 231x339+409+466
+wm geometry .sigmgr._PF:34 231x339+409+458
+wm geometry .sigmgr._PF:34 231x339+409+446
+wm geometry .sigmgr._PF:34 231x339+409+435
+wm geometry .sigmgr._PF:34 231x339+409+427
+wm geometry .sigmgr._PF:34 231x339+409+414
+wm geometry .sigmgr._PF:34 231x339+409+410
+wm geometry .sigmgr._PF:34 231x339+409+408
+wm geometry .sigmgr._PF:34 231x339+409+407
+wm geometry .sigmgr._PF:34 231x339+409+404
+pf:read PF:38 i(vsupply)
+# WF:38:6
+Graph addsignal WF:38:6 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal19
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:38 1TPOWRD(power)
+# WF:38:7
+Graph addsignal WF:38:7 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal20
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph3
+Graph:DSel
+Graph itemselect Signal19 add
+# Signal19
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal20 add
+# Signal20
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 231x339+799+184
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(2) gene_vsub.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

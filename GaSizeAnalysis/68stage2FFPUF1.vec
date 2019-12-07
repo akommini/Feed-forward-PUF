@@ -1,0 +1,11 @@
+RADIX 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+VNAME start1 start2 chal1 chal2 chal3 chal4 chal5 chal6 chal7 chal8 chal9 chal10 chal11 chal12 chal13 chal14 chal15 chal16 chal17 chal18 chal19 chal20 chal21 chal22 chal23 chal24 chal25 chal26 chal27 chal28 chal29 chal30 chal31 chal32 chal33 chal34 chal35 chal36 chal37 chal38 chal39 chal40 chal41 chal42 chal43 chal44 chal45 chal46 chal47 chal48 chal49 chal50 chal51 chal52 chal53 chal54 chal55 chal56 chal57 chal58 chal59 chal60 chal61 chal62 chal63 chal64 chal65 chal66 chal67 chal68 chal69 chal70 chal71 chal72 chal73 chal74 chal75 chal76 chal77 chal78 chal79 chal80 chal81 chal82 chal83 chal84 chal85 chal86 chal87 chal88 chal89 chal90 chal91 chal92 chal93 chal94 chal95 chal96 chal97 chal98 chal99 chal100 chal101 chal102 chal103 chal104 chal105 chal106 chal107 chal108 chal109 chal110 chal111 chal112 chal113 chal114 chal115 chal116 chal117 chal118 chal119 chal120 chal121 chal122 chal123 chal124 chal125 chal126 chal127 chal128 
+IO IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+TUNIT ns 
+VIH 1.1 
+VIL 0.0
+TRISE 0.01 
+TFALL 0.01 
+
+0 0 
+1 1 

@@ -1,0 +1,1 @@
+Using: /usr/bin/time -p /usr/synopsys/hspice/hspice/linux/hspice  -mt 4 -i Netlist/arbpuf/voltage1/Chip1/run1/generated_Challenge1.netlist -o /home/akommini/658proj/Results/Reliable_arbpuf/Chip1/run1/voltage1/result_Challenge1

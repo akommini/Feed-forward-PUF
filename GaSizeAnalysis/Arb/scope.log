@@ -1,0 +1,245 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1246x676+53+24
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1313x713+53+24
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/akommini/658proj/GaSize_anl/Arb/Arb_net.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 288x349+683+384
+wm geometry .sigmgr._PF:1 288x349+651+366
+wm geometry .sigmgr._PF:1 288x349+621+339
+wm geometry .sigmgr._PF:1 288x349+587+299
+wm geometry .sigmgr._PF:1 288x349+562+264
+wm geometry .sigmgr._PF:1 288x349+537+223
+wm geometry .sigmgr._PF:1 288x349+533+211
+pf:read PF:1 v(d1) v(d2) v(q)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:FullSize
+wm geometry .sigmgr 472x220+0+0
+wm geometry .sigmgr 472x220+884+105
+wm geometry .sigmgr 472x220+884+77
+wm geometry .sigmgr._PF:1 288x349+519+241
+wm geometry .sigmgr._PF:1 288x349+496+372
+wm geometry .sigmgr._PF:1 288x349+495+526
+wm geometry .sigmgr._PF:1 288x349+528+634
+wm geometry .sigmgr._PF:1 288x349+487+688
+wm geometry .sigmgr._PF:1 288x349+469+727
+wm geometry .sigmgr._PF:1 288x349+469+730
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+wm geometry .sigmgr._PF:1 288x349+432+669
+wm geometry .sigmgr._PF:1 288x349+394+587
+wm geometry .sigmgr._PF:1 288x349+327+459
+wm geometry .sigmgr._PF:1 288x349+300+384
+wm geometry .sigmgr._PF:1 288x349+276+312
+wm geometry .sigmgr._PF:1 288x349+275+312
+pf:read PF:3 v(out)
+# WF:3:3
+Graph addsignal WF:3:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal8
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:3 v(_net1)
+# WF:3:4
+Graph addsignal WF:3:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal9
+wm geometry .sigmgr._PF:1 288x349+339+352
+wm geometry .sigmgr._PF:1 288x349+422+394
+wm geometry .sigmgr._PF:1 288x349+544+502
+wm geometry .sigmgr._PF:1 288x349+616+624
+wm geometry .sigmgr._PF:1 288x349+629+699
+wm geometry .sigmgr._PF:1 288x349+636+689
+wm geometry .sigmgr._PF:1 288x349+629+687
+wm geometry .sigmgr._PF:1 288x349+609+679
+wm geometry .sigmgr._PF:1 288x349+600+680
+wm geometry .sigmgr._PF:1 288x349+590+683
+wm geometry .sigmgr._PF:1 288x349+586+685
+wm geometry .sigmgr._PF:1 288x349+585+685
+wm geometry .sigmgr._PF:1 288x349+584+689
+wm geometry .sigmgr._PF:1 288x349+570+702
+wm geometry .sigmgr._PF:1 288x349+570+703
+wm geometry .sigmgr._PF:1 288x349+570+704
+wm geometry .sigmgr._PF:1 288x349+570+703
+wm geometry .sigmgr._PF:1 288x349+570+706
+wm geometry .sigmgr._PF:1 288x349+569+708
+wm geometry .sigmgr._PF:1 288x349+567+710
+wm geometry .sigmgr._PF:1 288x349+567+709
+wm geometry .sigmgr._PF:1 288x349+567+708
+wm geometry .sigmgr._PF:1 288x349+567+707
+wm geometry .sigmgr._PF:1 288x349+567+706
+wm geometry .sigmgr._PF:1 288x349+567+698
+wm geometry .sigmgr._PF:1 288x349+565+697
+wm geometry .sigmgr._PF:1 288x349+565+695
+wm geometry .sigmgr._PF:1 288x349+564+692
+wm geometry .sigmgr._PF:1 288x349+563+690
+wm geometry .sigmgr._PF:1 288x349+562+690
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+wm geometry .sigmgr._PF:1 288x349+283+686
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) Arb_net.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/akommini/658proj/Results/Reliable_arbpuf/Chip1/run1/voltage1.0/result_Challenge1.tr0 1 openonly
+# Graph1
+# PF:9
+pf:read PF:9 v(out)
+# WF:9:1
+Graph addsignal WF:9:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:FullSize
+wm geometry .sigmgr._PF:9 288x349+678+434
+wm geometry .sigmgr._PF:9 288x349+659+473
+wm geometry .sigmgr._PF:9 288x349+646+528
+wm geometry .sigmgr._PF:9 288x349+645+534
+wm geometry .sigmgr._PF:9 288x349+627+571
+wm geometry .sigmgr._PF:9 288x349+616+636
+wm geometry .sigmgr._PF:9 288x349+608+676
+wm geometry .sigmgr._PF:9 288x349+608+678
+wm geometry .sigmgr._PF:9 288x349+608+682
+wm geometry .sigmgr._PF:9 288x349+608+684
+wm geometry .sigmgr._PF:9 288x349+610+690
+wm geometry .sigmgr._PF:9 288x349+611+690
+wm geometry .sigmgr._PF:9 288x349+611+691
+wm geometry .sigmgr._PF:9 288x349+612+691
+wm geometry .sigmgr._PF:9 288x349+612+690
+wm geometry .sigmgr._PF:9 288x349+612+689
+wm geometry .sigmgr._PF:9 288x349+615+677
+wm geometry .sigmgr._PF:1 288x349+283+687
+wm geometry .sigmgr._PF:9 288x349+662+678
+wm geometry .sigmgr._PF:9 288x349+681+684
+wm geometry .sigmgr._PF:9 288x349+700+691
+wm geometry .sigmgr._PF:9 288x349+708+691
+wm geometry .sigmgr._PF:9 288x349+713+692
+wm geometry .sigmgr._PF:9 288x349+714+694
+wm geometry .sigmgr._PF:9 288x349+715+695
+wm geometry .sigmgr._PF:9 288x349+717+695
+wm geometry .sigmgr._PF:9 288x349+730+693
+wm geometry .sigmgr._PF:9 288x349+765+704
+wm geometry .sigmgr._PF:9 288x349+767+704
+wm geometry .sigmgr._PF:9 288x349+768+704
+wm geometry .sigmgr._PF:9 288x349+775+704
+wm geometry .sigmgr._PF:9 288x349+780+705
+wm geometry .sigmgr._PF:9 288x349+781+705
+wm geometry .sigmgr._PF:9 288x349+783+704
+wm geometry .sigmgr._PF:9 288x349+783+703
+wm geometry .sigmgr._PF:9 288x349+783+702
+wm geometry .sigmgr._PF:1 288x349+316+698
+wm geometry .sigmgr._PF:1 288x349+326+705
+wm geometry .sigmgr._PF:1 288x349+327+705
+wm geometry .sigmgr._PF:1 288x349+327+703
+wm geometry .sigmgr._PF:1 288x349+327+700
+wm geometry .sigmgr._PF:1 288x349+327+696
+wm geometry .sigmgr._PF:1 288x349+327+695
+wm geometry .sigmgr._PF:1 288x349+327+696
+wm geometry .sigmgr._PF:1 288x349+327+697
+wm geometry .sigmgr._PF:1 288x349+327+699
+wm geometry .sigmgr._PF:1 288x349+327+701
+wm geometry .sigmgr._PF:1 288x349+327+698
+wm geometry .sigmgr._PF:9 288x349+783+701
+wm geometry .sigmgr._PF:9 288x349+784+701
+wm geometry .sigmgr._PF:9 288x349+785+701
+wm geometry .sigmgr._PF:9 288x349+785+702
+wm geometry .sigmgr._PF:1 288x349+327+699
+wm geometry .sigmgr._PF:1 288x349+328+700
+wm geometry .sigmgr._PF:1 288x349+329+700
+wm geometry .sigmgr._PF:1 288x349+329+701
+wm geometry .sigmgr._PF:1 288x349+331+701
+wm geometry .sigmgr._PF:1 288x349+331+703
+wm geometry .sigmgr._PF:1 288x349+332+703
+wm geometry .sigmgr._PF:1 288x349+333+703
+wm geometry .sigmgr._PF:1 288x349+334+703
+wm geometry .sigmgr._PF:1 288x349+334+702
+wm geometry .sigmgr 472x220+875+69
+wm geometry .sigmgr 472x220+874+69
+wm geometry .sigmgr 472x220+870+69
+wm geometry .sigmgr 472x220+866+66
+wm geometry .sigmgr 472x220+857+58
+wm geometry .sigmgr 472x220+836+45
+wm geometry .sigmgr 472x220+825+42
+wm geometry .sigmgr 472x220+822+41
+wm geometry .sigmgr 472x220+821+41
+wm geometry .sigmgr 472x220+807+38
+wm geometry .sigmgr 472x220+801+35
+wm geometry .sigmgr 472x220+800+33
+wm geometry .sigmgr 472x220+799+33
+wm geometry .sigmgr 472x220+794+30
+wm geometry .sigmgr 472x220+787+21
+wm geometry .sigmgr 472x220+782+14
+wm geometry .sigmgr 472x220+783+14
+wm geometry .sigmgr 472x220+784+14
+wm geometry .sigmgr 472x220+785+14
+wm geometry .sigmgr._PF:9 288x349+623+275
+wm geometry .sigmgr._PF:1 288x349+311+473
+wm geometry .sigmgr._PF:1 288x349+344+408
+wm geometry .sigmgr._PF:1 288x349+354+405
+wm geometry .sigmgr._PF:1 288x349+354+408
+wm geometry .sigmgr._PF:1 288x349+354+397
+wm geometry .sigmgr._PF:1 288x349+354+362
+wm geometry .sigmgr._PF:1 288x349+343+339
+wm geometry .sigmgr._PF:1 288x349+337+331
+wm geometry .sigmgr._PF:1 288x349+333+324
+wm geometry .sigmgr._PF:1 288x349+329+320
+wm geometry .sigmgr._PF:1 288x349+327+317
+wm geometry .sigmgr._PF:1 288x349+326+315
+wm geometry .sigmgr._PF:1 288x349+324+308
+wm geometry .sigmgr._PF:1 288x349+322+305
+wm geometry .sigmgr._PF:1 288x349+319+302
+wm geometry .sigmgr._PF:1 288x349+318+302
+wm geometry .sigmgr._PF:1 288x349+318+303
+wm geometry .sigmgr._PF:1 288x349+318+302
+wm geometry .sigmgr._PF:1 288x349+318+305
+wm geometry .sigmgr._PF:1 288x349+315+342
+wm geometry .sigmgr._PF:1 288x349+320+413
+wm geometry .sigmgr._PF:1 288x349+332+480
+wm geometry .sigmgr._PF:1 288x349+338+528
+wm geometry .sigmgr._PF:1 288x349+341+564
+wm geometry .sigmgr._PF:1 288x349+341+581
+wm geometry .sigmgr._PF:1 288x349+341+587
+wm geometry .sigmgr._PF:1 288x349+340+595
+wm geometry .sigmgr._PF:1 288x349+338+599
+wm geometry .sigmgr._PF:1 288x349+336+603
+wm geometry .sigmgr._PF:1 288x349+335+604
+wm geometry .sigmgr._PF:1 288x349+334+604
+wm geometry .sigmgr._PF:9 288x349+664+659
+wm geometry .sigmgr._PF:9 288x349+663+658
+wm geometry .sigmgr._PF:1 288x349+323+682
+wm geometry .sigmgr._PF:9 288x349+659+698
+wm geometry .sigmgr._PF:9 288x349+448+107
+wm geometry .sigmgr._PF:9 288x349+429+109
+wm geometry .sigmgr._PF:9 288x349+423+132
+wm geometry .sigmgr._PF:9 288x349+423+159
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph1
+Graph:DSel

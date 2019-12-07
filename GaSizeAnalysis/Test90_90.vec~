@@ -1,0 +1,19 @@
+radix 1 1 1  
+
+io i i i
+
+vname a b s 
+
+TUNIT ns 
+VIH 1.1 
+VIL 0.0
+TRISE 0.010 
+TFALL 0.010 
+period 2
+
+0 0 0
+0 0 0
+1 1 0
+1 1 1
+0 0 1
+0 0 0

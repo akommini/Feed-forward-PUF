@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='E-2010.12-SP2 32-BIT'
+.TITLE '.global vss! vdd!'
+ tdlays1a1        poweva1          poweva3half1     ya1               
+ outa1            temper           alter#            
+ -1.438e-13       -6.022e-15       -1.998e-15          1.0399         
+    1.0659          25.0000        1                 

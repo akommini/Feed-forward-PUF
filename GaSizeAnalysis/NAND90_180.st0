@@ -1,0 +1,54 @@
+***** HSPICE -- E-2010.12-SP2 32-BIT (May 23 2011) linux ******
+ Input File: NAND90_180.sp
+ lic: No 'setenv LM_LICENSE_FILE' in current environment'
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   akommini             HOSTNAME: vlsicad1.ecs.umass.edu
+ lic: HOSTID: 782bcb03b866         PID:      9035
+ lic: Using FLEXlm license file:
+ lic: 27000@vlsicad2.ecs.umass.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 09-sep-2015/2014.09
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER vlsicad2.ecs.umass.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  0.00E+00
+       option search   = /usr/synopsys/hspice/hspice/parts/ad
+       option search   = /usr/synopsys/hspice/hspice/parts/behave
+       option search   = /usr/synopsys/hspice/hspice/parts/bjt
+       option search   = /usr/synopsys/hspice/hspice/parts/burr_brn
+       option search   = /usr/synopsys/hspice/hspice/parts/comlinear
+       option search   = /usr/synopsys/hspice/hspice/parts/dio
+       option search   = /usr/synopsys/hspice/hspice/parts/fet
+       option search   = /usr/synopsys/hspice/hspice/parts/lin_tech
+       option search   = /usr/synopsys/hspice/hspice/parts/pci
+       option search   = /usr/synopsys/hspice/hspice/parts/signet
+       option search   = /usr/synopsys/hspice/hspice/parts/ti
+       option search   = /usr/synopsys/hspice/hspice/parts/tline
+       option search   = /usr/synopsys/hspice/hspice/parts/xilinx
+       option runlvl
+       option post
+ init: end read circuit files,  cpu clock=  0.00E+00 memory=    284 kb
+ init: begin check errors,  cpu clock=  0.00E+00
+ **warning**  No DC path to ground from node        0:                yb
+ init: end check errors,  cpu clock=  1.00E-02 memory=    426 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.00E-02
+       establish matrix -- done,  cpu clock=  1.00E-02 memory=    558 kb
+       re-order matrix -- done,  cpu clock=  1.00E-02 memory=    579 kb
+ init: end setup matrix,  cpu clock=  1.00E-02 memory=    670 kb
+ dcop: begin dcop,  cpu clock=  1.00E-02
+ dcop: end dcop,  cpu clock=  2.00E-02 memory=    670 kb  tot_iter=      27
+ output: NAND90_180.mt0
+ sweep: tran tran0    begin, stop_t=  1.00E-08 #sweeps=**** cpu clock=  2.00E-02
+ tran: time= 1.0000E-09 tot_iter=      83 conv_iter=      32 cpu clock= 4.00E-02
+ tran: time= 2.0000E-09 tot_iter=     208 conv_iter=      76 cpu clock= 6.00E-02
+ tran: time= 3.0000E-09 tot_iter=     287 conv_iter=     106 cpu clock= 8.00E-02
+ tran: time= 4.0000E-09 tot_iter=     443 conv_iter=     162 cpu clock= 1.20E-01
+ tran: time= 5.1326E-09 tot_iter=     503 conv_iter=     185 cpu clock= 1.40E-01
+ tran: time= 6.2331E-09 tot_iter=     511 conv_iter=     189 cpu clock= 1.40E-01
+ tran: time= 7.2331E-09 tot_iter=     515 conv_iter=     191 cpu clock= 1.40E-01
+ tran: time= 8.2331E-09 tot_iter=     519 conv_iter=     193 cpu clock= 1.40E-01
+ tran: time= 9.2331E-09 tot_iter=     523 conv_iter=     195 cpu clock= 1.40E-01
+ tran: time= 1.0000E-08 tot_iter=     527 conv_iter=     197 cpu clock= 1.50E-01
+ sweep: tran tran0    end,  cpu clock=  1.50E-01 memory=    673 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

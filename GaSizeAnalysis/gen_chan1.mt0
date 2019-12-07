@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='E-2010.12-SP2 32-BIT'
+.TITLE ' '
+ tdlays1a1        tdlays1a4        tdlays1a2        tdlays1a3         
+ temper           alter#            
+  2.000e-09       -3.620e-08          0.             1.332e-09        
+   25.0000        1                 
